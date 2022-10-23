@@ -1,0 +1,92 @@
+* {
+    font-family: "Work Sans";
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 375px 25px 375px;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 45px;
+    max-height: 30px;
+}
+
+.menu img {
+    max-width: 40px;
+    max-height: 26px;
+}
+
+.info-leon {
+    background-color: #f6f6f6;
+    width: 100%;
+    min-height: 460px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 60px;
+}
+
+.title_info-leon p {
+    font-weight: 800;
+    font-size: 55px;
+    color: #10cab7;
+    margin-top: 50px;
+}
+
+.subtitle_info-leon p {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.work {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.work img {
+    margin-top: 85px;
+}
+
+.work1, .work2, .work3 {
+    min-width: 640px;
+    min-height: 400px;
+}
+
+.work1 img {
+    max-width: 70px;
+    max-height: 70px;
+}
+
+.work2 {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.work2 img {
+    max-width: 60px;
+    max-height: 75px;
+}
+
+.work3 img {
+    max-width: 65px;
+    max-height: 75px;
+}
+
+.title_work p {
+    font-weight: 800;
+    font-size: 20px;
+    margin: 50px 0 35px 0;
+}
+
+.subtitle_work p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+}
+
