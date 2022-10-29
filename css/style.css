@@ -1,7 +1,10 @@
 * {
     font-family: "Work Sans";
     margin: 0;
+    font-weight: 400;
 }
+
+/* header */
 
 .navbar {
     display: flex;
@@ -38,10 +41,11 @@
 }
 
 .subtitle_info-leon p {
-    font-weight: 400;
     font-size: 20px;
     text-align: center;
 }
+
+/* Work */
 
 .work {
     display: flex;
@@ -50,22 +54,24 @@
     text-align: center;
 }
 
-.work img {
-    margin-top: 85px;
-}
-
 .work1, .work2, .work3 {
     min-width: 640px;
     min-height: 400px;
 }
 
+.work2 {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+/* Work images */
+
+.work img {
+    margin-top: 85px;
+}
+
 .work1 img {
     max-width: 70px;
     max-height: 70px;
-}
-
-.work2 {
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .work2 img {
@@ -85,8 +91,112 @@
 }
 
 .subtitle_work p {
-    font-weight: 400;
     font-size: 15px;
     line-height: 30px;
 }
 
+/* Services */
+
+.services {
+    margin: 70px 375px 0 375px;
+}
+
+.sub-title_services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 145px;
+}
+
+.title_services {
+    font-weight: 800;
+    font-size: 160px;
+    text-align: center;
+    color: rgba(246,246,246,1);
+}
+
+.subtitle_services {
+    font-size: 25px;
+    font-weight: 400;
+    position: absolute;
+    z-index: 2;
+    top: 1155px;
+    left: 890px;
+}
+
+/* Services blocks  */
+
+.service_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service {
+    display: flex;
+    column-gap: 40px;
+    row-gap: 70px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sub-title_service {
+    margin-right: 60px;
+    margin-bottom: 40px;
+}
+
+.title_service p {
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.subtitle_service p {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+/* Service image */
+
+.image1_service img {
+    max-width: 38px;
+    max-height: 38px;
+}
+
+.image2_service img {
+    max-width: 38px;
+    max-height: 38px;
+}
+
+.image3_service img {
+    max-width: 40px;
+    max-height: 35px;
+}
+
+.image4_service img {
+    max-width: 42px;
+    max-height: 30px;
+}
+
+.image {
+    background-color: #f6f6f6;
+    width: 300px;
+    height: 330px;
+    margin-right: 40px;
+    box-shadow: -2px 2px 8px -4px rgba(44, 71, 85, 1);
+}
+
+.path {
+    background-color: #2c4755;
+    width: 100px;
+    height: 430px;
+    position: absolute;
+    top: 1305px;
+    right: 375px;
+    z-index: -1;
+    opacity: .99;
+}
