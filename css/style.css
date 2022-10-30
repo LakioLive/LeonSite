@@ -4,6 +4,10 @@
     font-weight: 400;
 }
 
+body {
+    background-color: #ffffff;
+}
+
 /* header */
 
 .navbar {
@@ -98,7 +102,7 @@
 /* Services */
 
 .services {
-    margin: 70px 375px 0 375px;
+    margin: 70px 375px 105px 375px;
 }
 
 .sub-title_services {
@@ -121,7 +125,7 @@
     position: absolute;
     z-index: 2;
     top: 1155px;
-    left: 890px;
+    left: 880px;
 }
 
 /* Services blocks  */
@@ -200,3 +204,87 @@
     z-index: -1;
     opacity: .99;
 }
+
+/* Portfolio */
+
+.portfolio {
+    background-color: #fafafa;
+    width: 100%;
+    padding: 45px 0 70px 0;
+}
+
+.sub-title_portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 75px;
+}
+
+.title_portfolio p {
+    font-weight: 800;
+    font-size: 160px;
+    text-align: center;
+    color: #ebeced;
+}
+
+.subtitle_portfolio {
+    font-size: 25px;
+    font-weight: 400;
+    position: absolute;
+    z-index: 2;
+    top: 2045px;
+    left: 840px;
+}
+
+/* Image block portfolio */
+
+.image-flex_portfolio {
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+}
+
+.image_portfolio {
+    background-color: #f6f6f6;
+    width: 500px;
+    height: 370px;
+}
+
+.sub-title_image_portfolio {
+    background-color: #ffffff;
+    padding-top: 25px;
+}
+
+.title_image_portfolio p {
+    font-size: 20px;
+    font-weight: 800;
+    margin: 0 0 20px 30px;
+}
+
+.subtitle_image_portfolio p {
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0 0 26px 30px;
+    line-height: 25px;
+}
+
+/* Button portfolio */
+
+.btn_portfolio {
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+}
+
+.btn_portfolio input {
+    border: 1px solid black;
+    background-color: #fafafa;
+    width: 155px;
+    height: 45px;
+    color: black;
+    font-weight: 800;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
