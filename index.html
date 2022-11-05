@@ -15,13 +15,13 @@
 
     <!-- Header -->
 
-    <div class="header">
+    <div class="header" id="home">
         <div class="navbar">
             <div class="logo">
                 <img src="images/logoLeon.png" alt="">
             </div>
             <div class="menu">
-                <img src="images/icons-menu.png" alt="">
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()"><img src="images/icons-menu.png" alt=""></span>
             </div>
         </div>
         <div class="info-leon">
@@ -31,6 +31,41 @@
             <div class="subtitle_info-leon">
                 <p>We are Leon - Super Creative & Minimal <br>
                     Agency  Web Template</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Menu -->
+
+    <div class="background_menu" id="sideMenu">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="images/close-menu.png" alt=""></a>
+        <div class="block_menu">
+            <div class="title_menu">
+                <p>Menu</p>
+            </div>
+            <div class="tab-selection_menu" id="menu">
+                <a href="#" data-scroll="#home">Home</a>
+                <a href="#" data-scroll="#services">Services</a>
+                <a href="#" data-scroll="#portfolio">Portfolio</a>
+                <a href="#" data-scroll="#about">About</a>
+            </div>
+        </div>
+        <div class="block_get-in-touch">
+            <div class="title_menu">
+                <p>Get in Touch</p>
+            </div>
+            <div class="tab-selection_get-in-touch">
+                <a href="#">Contact Me</a>
+            </div>
+        </div>
+        <div class="block_get-social">
+            <div class="title_menu">
+                <p>Get Social</p>
+            </div>
+            <div class="tab-selection_get-social">
+                <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+                <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+                <a href="https://twitter.com/" target="_blank">Twitter</a>
             </div>
         </div>
     </div>
@@ -75,7 +110,7 @@
 
     <!-- Services -->
 
-    <div class="services">
+    <div class="services" id="services">
         <div class="sub-title_services">
             <p class="title_services">services</p>
             <p class="subtitle_services">Don't be busy, be productive</p>
@@ -154,7 +189,7 @@
 
     <!-- Portfolio -->
 
-    <div class="portfolio">
+    <div class="portfolio" id="portfolio">
         <div class="sub-title_portfolio">
             <div class="title_portfolio">
                 <p>portfolio</p>
@@ -210,7 +245,7 @@
 
     <!-- About -->
 
-    <div class="about">
+    <div class="about" id="about">
         <div class="sub-title_about">
             <div class="title_about">
                 <p>about</p>
@@ -288,5 +323,9 @@
             <p>© 2019 - <span style="color: #10cab7;">Leon</span>,All Right Reserved</p>
         </div>
     </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/OffCanvasMenu.js"></script>
+    <script src="js/smoothScroll.js"></script>
 </body>
 </html>
