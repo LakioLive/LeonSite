@@ -2,6 +2,7 @@
     font-family: "Work Sans";
     margin: 0;
     font-weight: 400;
+    color: #2c4755;
 }
 
 body {
@@ -162,6 +163,7 @@ body {
 .subtitle_work p {
     font-size: 15px;
     line-height: 30px;
+    color: #575757;
 }
 
 /* Services */
@@ -191,6 +193,7 @@ body {
     z-index: 2;
     top: 1155px;
     left: 880px;
+    color: #575757;
 }
 
 /* Services blocks  */
@@ -222,11 +225,13 @@ body {
     font-weight: 800;
     font-size: 20px;
     margin-bottom: 40px;
+    color: #1f2021;
 }
 
 .subtitle_service p {
     font-size: 15px;
     line-height: 25px;
+    color: #575757;
 }
 
 /* Service image */
@@ -299,6 +304,7 @@ body {
     z-index: 2;
     top: 2045px;
     left: 840px;
+    color: #575757;
 }
 
 /* Image block portfolio */
@@ -324,6 +330,7 @@ body {
     font-size: 20px;
     font-weight: 800;
     margin: 0 0 20px 30px;
+    color: #1f2021;
 }
 
 .subtitle_image_portfolio p {
@@ -331,6 +338,7 @@ body {
     font-weight: 400;
     padding: 0 0 26px 30px;
     line-height: 25px;
+    color: #575757;
 }
 
 /* Button portfolio */
@@ -379,6 +387,7 @@ body {
     z-index: 2;
     top: 3085px;
     left: 945px;
+    color: #575757;
 }
 
 .info-flex_about {
@@ -433,7 +442,7 @@ body {
     line-height: 40px;
 }
 
-.path-info_about {
+.underline-info_about {
     width: 270px;
     height: 3px;
     background-color: #10cab7;
@@ -444,6 +453,7 @@ body {
     font-weight: 400;
     font-size: 15px;
     line-height: 30px;
+    color: #575757;
 }
 
 /* Footer */
@@ -475,6 +485,7 @@ body {
     z-index: 2;
     top: 3845px;
     left: 922.5px;
+    color: #575757;
 }
 
 .info_footer {
