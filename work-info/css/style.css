@@ -3,6 +3,7 @@
     margin: 0;
     font-weight: 400;
     color: #2c4755;
+    letter-spacing: -1px;
 }
 
 body {
@@ -14,8 +15,9 @@ body {
 .navbar {
     display: flex;
     justify-content: space-between;
-    margin: 35px 375px 25px 375px;
+    padding: 35px 375px 25px 375px;
     align-items: center;
+    background-color: #fff;
 }
 
 .logo img {
@@ -26,6 +28,71 @@ body {
 .menu img {
     max-width: 40px;
     max-height: 26px;
+}
+
+/* Menu */
+
+.background_menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: #2c4755; 
+    overflow-x: hidden;
+    padding-top: 60px; 
+    transition: 0.5s;
+}
+
+.title_menu p {
+    font-size: 20px;
+    color: #637988;
+    padding: 0 0 30px 60px;
+}
+
+.block_menu .title_menu {
+    padding-top: 60px;
+}
+
+.block_get-in-touch .title_menu {
+    padding-top: 45px;
+}
+
+.block_get-social .title_menu {
+    padding-top: 45px;
+}
+
+.background_menu a {
+    padding: 0 8px 14px 60px;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.background_menu a:hover {
+    color: #10cab7;
+}
+
+.block_get-in-touch .tab-selection_get-in-touch a {
+    font-size: 20px;
+}
+
+.block_get-social .tab-selection_get-social a {
+    font-size: 20px;
+}
+
+.background_menu .closebtn {
+    position: absolute;
+    top: 35px;
+    font-size: 36px;
+}
+
+.background_menu .closebtn img {
+    height: 20px;
+    width: 20px;
 }
 
 /* Hero */
@@ -96,7 +163,7 @@ body {
 }
 
 .category_details {
-    padding: 80px 0 50px 80px;
+    padding: 72.5px 0 50px 80px;
 }
 
 .autor_details {
@@ -117,4 +184,178 @@ body {
 .subtitle_details p {
     color: #575757;
     font-size: 15px;
+}
+
+/* Images */
+
+.image1 {
+    margin: 0 375px 75px 375px;
+}
+
+.image_image1 {
+    background-color: #dedede;
+    min-width: 1170px;
+    height: 535px;
+}
+
+.image2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 375px 95px 475px;
+}
+
+.text_image2 p {
+    color: #575757;
+    font-size: 15px;
+    line-height: 32px;
+}
+
+.image_image2 {
+    background-color: #dedede;
+    width: 570px;
+    height: 365px;
+}
+
+.image3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 475px 0 375px;
+}
+
+.image_image3 {
+    background-color: #dedede;
+    width: 570px;
+    height: 365px;
+}
+
+.text_image3 p {
+    color: #575757;
+    font-size: 15px;
+    line-height: 32px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #fafafa;
+    width: 100%;
+    height: 720px;
+}
+
+.sub-title_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 90px 0 155px 0;
+}
+
+.title_footer p {
+    font-weight: 800;
+    font-size: 160px;
+    text-align: center;
+    color: #ebeced;
+}
+
+.subtitle_footer {
+    font-size: 25px;
+    font-weight: 400;
+    position: absolute;
+    z-index: 1;
+    top: 2925px;
+    left: 825px;
+    color: #575757;
+}
+
+.info_footer {
+    margin-left: 375px;
+}
+
+.title-info_footer p {
+    color: #334752;
+    font-weight: 800;
+    font-size: 55px;
+}
+
+.subtitle-info_footer p {
+    color: #10cab7;
+    font-weight: 800;
+    font-size: 50px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 45px;
+}
+
+.path-info_footer {
+    background-color: #ffffff;
+    width: 605px;
+    height: 35px;
+    position: absolute;
+    top: 3230px;
+    left: 375px;
+    opacity: .99;
+}
+
+.social_footer {
+    margin: 100px 0 0 480px;
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 30px;
+}
+
+.text-social_footer p {
+    color: #334752;
+    font-size: 15px;
+}
+
+.image-socail_footer {
+    display: flex;
+    column-gap: 30px;
+}
+
+.instagram img {
+    max-width: 27px;
+    max-height: 27px;
+}
+
+.facebook img {
+    max-width: 27px;
+    max-height: 25px;
+}
+
+.twitter img {
+    max-width: 27px;
+    max-height: 25px;
+}
+
+/* Bottom Footer */
+
+.bottom_footer {
+    background-color: #2c4755;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-bottom_footer p, span {
+    color: white;
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: 0;
+}
+
+/* Sticky Navbar */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 60.6%;
+    z-index: 2;
+}
+
+.sticky_main {
+    margin-top: 85px;
 }

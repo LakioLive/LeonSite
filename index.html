@@ -16,14 +16,18 @@
     <!-- Header -->
 
     <div class="header" id="home">
-        <div class="navbar">
+        <div class="navbar" id="navbar">
             <div class="logo">
                 <img src="images/logoLeon.png" alt="">
             </div>
             <div class="menu">
-                <span style="font-size:30px;cursor:pointer" onclick="openNav()"><img src="images/icons-menu.png" alt=""></span>
+                <img src="images/icons-menu.png" alt="" style="font-size:30px;cursor:pointer" onclick="openNav()">
             </div>
         </div>
+    </div>
+    
+    <!-- Main -->
+    <div class="main" id="main">
         <div class="info-leon">
             <div class="title_info-leon">
                 <p>Hello There!</p>
@@ -33,299 +37,300 @@
                     Agency  Web Template</p>
             </div>
         </div>
-    </div>
 
-    <!-- Menu -->
+        <!-- Menu -->
 
-    <div class="background_menu" id="sideMenu">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="images/close-menu.png" alt=""></a>
-        <div class="block_menu">
-            <div class="title_menu">
-                <p>Menu</p>
-            </div>
-            <div class="tab-selection_menu" id="menu">
-                <a href="#" data-scroll="#home">Home</a>
-                <a href="#" data-scroll="#services">Services</a>
-                <a href="#" data-scroll="#portfolio">Portfolio</a>
-                <a href="#" data-scroll="#about">About</a>
-            </div>
-        </div>
-        <div class="block_get-in-touch">
-            <div class="title_menu">
-                <p>Get in Touch</p>
-            </div>
-            <div class="tab-selection_get-in-touch">
-                <a href="work-info/index.html" target="_blank">Contact Me</a>
-            </div>
-        </div>
-        <div class="block_get-social">
-            <div class="title_menu">
-                <p>Get Social</p>
-            </div>
-            <div class="tab-selection_get-social">
-                <a href="https://www.instagram.com/" target="_blank">Instagram</a>
-                <a href="https://www.facebook.com/" target="_blank">Facebook</a>
-                <a href="https://twitter.com/" target="_blank">Twitter</a>
-            </div>
-        </div>
-    </div>
-
-    <!-- Work -->
-
-    <div class="work">
-        <div class="work1">
-            <img src="images/lamp.png" alt="">
-            <div class="title_work">
-                <p>Tell Us Your Idea</p>
-            </div>
-            <div class="subtitle_work">
-                <p>Lorem ipsum dolor sit amet, consectetur <br>
-                    adipiscing elit, sed do eiusmod tempor <br>
-                    incididunt ut lab</p>
-            </div>
-        </div>
-        <div class="work2">
-            <img src="images/Flask.png" alt="">
-            <div class="title_work">
-                <p>We Will Do All The Work</p>
-            </div>
-            <div class="subtitle_work">
-                <p>Lorem ipsum dolor sit amet, consectetur <br>
-                    adipiscing elit, sed do eiusmod tempor <br>
-                    incididunt ut lab</p>
-            </div>
-        </div>
-        <div class="work3">
-            <img src="images/globe.png" alt="">
-            <div class="title_work">
-                <p>Your Product Is Worldwide</p>
-            </div>
-            <div class="subtitle_work">
-                <p>Lorem ipsum dolor sit amet, consectetur <br>
-                    adipiscing elit, sed do eiusmod tempor <br>
-                    incididunt ut lab</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Services -->
-
-    <div class="services" id="services">
-        <div class="sub-title_services">
-            <p class="title_services">services</p>
-            <p class="subtitle_services">Don't be busy, be productive</p>
-        </div>
-        <div class="service_block">
-            <div class="services-flex">
-                <div class="service">
-                    <div class="image1_service">
-                        <img src="images/printer.png" alt="">
-                    </div>
-                    <div class="sub-title_service">
-                        <div class="title_service">
-                            <p>Graphic Design</p>
-                        </div>
-                        <div class="subtitle_service">
-                            <p>Graphic design is the process of visual <br>
-                                communication and problem-solving <br>
-                                using one or more of typography, <br>
-                                photography and illustration.</p>
-                        </div>
-                    </div>
+        <div class="background_menu" id="sideMenu">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="images/close-menu.png" alt=""></a>
+            <div class="block_menu">
+                <div class="title_menu">
+                    <p>Menu</p>
                 </div>
-                <div class="service">
-                    <div class="image2_service">
-                        <img src="images/webdesign.png" alt="">
-                    </div>
-                    <div class="sub-title_service">
-                        <div class="title_service">
-                            <p>Web Design</p>
+                <div class="tab-selection_menu" id="menu">
+                    <a href="#" data-scroll="#home">Home</a>
+                    <a href="#" data-scroll="#services">Services</a>
+                    <a href="#" data-scroll="#portfolio">Portfolio</a>
+                    <a href="#" data-scroll="#about">About</a>
+                </div>
+            </div>
+            <div class="block_get-in-touch">
+                <div class="title_menu">
+                    <p>Get in Touch</p>
+                </div>
+                <div class="tab-selection_get-in-touch">
+                    <a href="work-info/index.html">Contact Me</a>
+                </div>
+            </div>
+            <div class="block_get-social">
+                <div class="title_menu">
+                    <p>Get Social</p>
+                </div>
+                <div class="tab-selection_get-social">
+                    <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+                    <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+                    <a href="https://twitter.com/" target="_blank">Twitter</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Work -->
+
+        <div class="work">
+            <div class="work1">
+                <img src="images/lamp.png" alt="">
+                <div class="title_work">
+                    <p>Tell Us Your Idea</p>
+                </div>
+                <div class="subtitle_work">
+                    <p>Lorem ipsum dolor sit amet, consectetur <br>
+                        adipiscing elit, sed do eiusmod tempor <br>
+                        incididunt ut lab</p>
+                </div>
+            </div>
+            <div class="work2">
+                <img src="images/Flask.png" alt="">
+                <div class="title_work">
+                    <p>We Will Do All The Work</p>
+                </div>
+                <div class="subtitle_work">
+                    <p>Lorem ipsum dolor sit amet, consectetur <br>
+                        adipiscing elit, sed do eiusmod tempor <br>
+                        incididunt ut lab</p>
+                </div>
+            </div>
+            <div class="work3">
+                <img src="images/globe.png" alt="">
+                <div class="title_work">
+                    <p>Your Product Is Worldwide</p>
+                </div>
+                <div class="subtitle_work">
+                    <p>Lorem ipsum dolor sit amet, consectetur <br>
+                        adipiscing elit, sed do eiusmod tempor <br>
+                        incididunt ut lab</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Services -->
+
+        <div class="services" id="services">
+            <div class="sub-title_services">
+                <p class="title_services">services</p>
+                <p class="subtitle_services" id="subtitle1">Don't be busy, be productive</p>
+            </div>
+            <div class="service_block">
+                <div class="services-flex">
+                    <div class="service">
+                        <div class="image1_service image_service">
+                            <img src="images/printer.png" alt="">
                         </div>
-                        <div class="subtitle_service">
-                            <p>Web design encompasses many different <br>
-                                skills and disciplines in the production <br>
-                                and maintenance of websites.</p>
+                        <div class="sub-title_service">
+                            <div class="title_service">
+                                <p>Graphic Design</p>
+                            </div>
+                            <div class="subtitle_service">
+                                <p>Graphic design is the process of visual <br>
+                                    communication and problem-solving <br>
+                                    using one or more of typography, <br>
+                                    photography and illustration.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="service">
-                    <div class="image3_service">
-                        <img src="images/comment.png" alt="">
-                    </div>
-                    <div class="sub-title_service">
-                        <div class="title_service">
-                            <p>UI & UX</p>
+                    <div class="service">
+                        <div class="image2_service image_service">
+                            <img src="images/webdesign.png" alt="">
                         </div>
-                        <div class="subtitle_service">
-                            <p>Process of enhancing user satisfaction <br>
-                                with a product by improving the <br>
-                                usability, accessibility, and pleasure <br> 
-                                provided in the interaction.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="image4_service">
-                        <img src="images/monitor.png" alt="">
-                    </div>
-                    <div class="sub-title_service">
-                        <div class="title_service">
-                            <p>Web Development</p>
-                        </div>
-                        <div class="subtitle_service">
-                            <p>Web development is a broad term for <br>
-                                the work involved in developing a web site <br>
-                                for the Internet or an intranet.</p>
+                        <div class="sub-title_service">
+                            <div class="title_service">
+                                <p>Web Design</p>
+                            </div>
+                            <div class="subtitle_service">
+                                <p>Web design encompasses many different <br>
+                                    skills and disciplines in the production <br>
+                                    and maintenance of websites.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="img_service">
-                <div class="image-img_service"></div>
-                <div class="path-img_service"></div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio -->
-
-    <div class="portfolio" id="portfolio">
-        <div class="sub-title_portfolio">
-            <div class="title_portfolio">
-                <p>portfolio</p>
-            </div>
-            <div class="subtitle_portfolio">
-                <p>If you do it right, it will last forever.</p>
-            </div>
-        </div>
-        <div class="image-flex_portfolio">
-            <div class="image-block">
-                <div class="image_portfolio"></div>
-                <div class="sub-title_image_portfolio">
-                    <div class="title_image_portfolio">
-                        <p>Project Here</p>
+                    <div class="service">
+                        <div class="image3_service image_service">
+                            <img src="images/comment.png" alt="">
+                        </div>
+                        <div class="sub-title_service">
+                            <div class="title_service">
+                                <p>UI & UX</p>
+                            </div>
+                            <div class="subtitle_service">
+                                <p>Process of enhancing user satisfaction <br>
+                                    with a product by improving the <br>
+                                    usability, accessibility, and pleasure <br> 
+                                    provided in the interaction.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="subtitle_image_portfolio">
-                        <p>My creative ability is very difficult to measure because it can <br>
-                            manifest in so many surprising and.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="image-block">
-                <div class="image_portfolio"></div>
-                <div class="sub-title_image_portfolio">
-                    <div class="title_image_portfolio">
-                        <p>Project Here</p>
-                    </div>
-                    <div class="subtitle_image_portfolio">
-                        <p>My creative ability is very difficult to measure because it can <br>
-                            manifest in so many surprising and.</p>
+                    <div class="service">
+                        <div class="image4_service image_service">
+                            <img src="images/monitor.png" alt="">
+                        </div>
+                        <div class="sub-title_service">
+                            <div class="title_service">
+                                <p>Web Development</p>
+                            </div>
+                            <div class="subtitle_service">
+                                <p>Web development is a broad term for <br>
+                                    the work involved in developing a web site <br>
+                                    for the Internet or an intranet.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <div class="img_service">
+                    <div class="image-img_service"></div>
+                    <div class="path-img_service" id="path1"></div>
+                </div>
             </div>
-            <div class="image-block">
-                <div class="image_portfolio"></div>
-                <div class="sub-title_image_portfolio">
-                    <div class="title_image_portfolio">
-                        <p>Project Here</p>
+        </div>
+
+        <!-- Portfolio -->
+
+        <div class="portfolio" id="portfolio">
+            <div class="sub-title_portfolio">
+                <div class="title_portfolio">
+                    <p>portfolio</p>
+                </div>
+                <div class="subtitle_portfolio">
+                    <p>If you do it right, it will last forever.</p>
+                </div>
+            </div>
+            <div class="image-flex_portfolio">
+                <div class="image-block">
+                    <div class="image_portfolio"></div>
+                    <div class="sub-title_image_portfolio">
+                        <div class="title_image_portfolio">
+                            <p>Project Here</p>
+                        </div>
+                        <div class="subtitle_image_portfolio">
+                            <p>My creative ability is very difficult to measure because it can <br>
+                                manifest in so many surprising and.</p>
+                        </div>
                     </div>
-                    <div class="subtitle_image_portfolio">
-                        <p>My creative ability is very difficult to measure because it can <br>
-                            manifest in so many surprising and.</p>
+                </div>
+                <div class="image-block">
+                    <div class="image_portfolio"></div>
+                    <div class="sub-title_image_portfolio">
+                        <div class="title_image_portfolio">
+                            <p>Project Here</p>
+                        </div>
+                        <div class="subtitle_image_portfolio">
+                            <p>My creative ability is very difficult to measure because it can <br>
+                                manifest in so many surprising and.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-block">
+                    <div class="image_portfolio"></div>
+                    <div class="sub-title_image_portfolio">
+                        <div class="title_image_portfolio">
+                            <p>Project Here</p>
+                        </div>
+                        <div class="subtitle_image_portfolio">
+                            <p>My creative ability is very difficult to measure because it can <br>
+                                manifest in so many surprising and.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="btn_portfolio">
+                <a href="#">
+                    <input type="button" value="Show Me More" class="button">
+                </a>
+            </div>
+        </div>
+
+        <!-- About -->
+
+        <div class="about" id="about">
+            <div class="sub-title_about">
+                <div class="title_about">
+                    <p>about</p>
+                </div>
+                <div class="subtitle_about">
+                    <p>Less is more work</p>
+                </div>
+            </div>
+            <div class="info-flex_about">
+                <div class="image-info_about">
+                    <div class="path1-info_about"></div>
+                    <div class="img-info_about"></div>
+                    <div class="path2-info_about"></div>
+                    <div class="path3-info_about"></div>
+                </div>
+                <div class="info_about">
+                    <div class="title-info_about">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>
+                            sed do eiusmod tempor incididunt ut labore et dolore <br>
+                            magna aliqua. Ut enim ad minim veniam, quis nostrud <br>
+                            exercitation ullamco laboris nisi ut aliqui</p>
+                    </div>
+                    <div class="underline-info_about"></div>
+                    <div class="subtitle-info_about">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br>
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <br>
+                            exercitation ullamco laboris nisi ut aliqu</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="btn_portfolio">
-            <a href="#">
-                <input type="button" value="Show Me More">
-            </a>
-        </div>
-    </div>
 
-    <!-- About -->
+        <!-- Footer -->
 
-    <div class="about" id="about">
-        <div class="sub-title_about">
-            <div class="title_about">
-                <p>about</p>
-            </div>
-            <div class="subtitle_about">
-                <p>Less is more work</p>
-            </div>
-        </div>
-        <div class="info-flex_about">
-            <div class="image-info_about">
-                <div class="path1-info_about"></div>
-                <div class="img-info_about"></div>
-                <div class="path2-info_about"></div>
-                <div class="path3-info_about"></div>
-            </div>
-            <div class="info_about">
-                <div class="title-info_about">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>
-                        sed do eiusmod tempor incididunt ut labore et dolore <br>
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud <br>
-                        exercitation ullamco laboris nisi ut aliqui</p>
+        <div class="footer">
+            <div class="sub-title_footer">
+                <div class="title_footer">
+                    <p>contact</p>
                 </div>
-                <div class="underline-info_about"></div>
-                <div class="subtitle-info_about">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br>
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <br>
-                        exercitation ullamco laboris nisi ut aliqu</p>
+                <div class="subtitle_footer">
+                    <p>We are born to create</p>
+                </div>
+            </div>
+            <div class="info_footer">
+                <div class="title-info_footer">
+                    <p>Feel free to drop us a line at:</p>
+                </div>
+                <div class="subtitle-info_footer">
+                    <p>leonagency@mail.com</p>
+                </div>
+                <div class="path-info_footer"></div>
+            </div>
+            <div class="social_footer">
+                <div class="text-social_footer">
+                    <p>Find us on socail networks:</p>
+                </div>
+                <div class="image-socail_footer">
+                    <div class="instagram">
+                        <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.png" alt=""></a>
+                    </div>
+                    <div class="facebook">
+                        <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt=""></a>
+                    </div>
+                    <div class="twitter">
+                        <a href="https://twitter.com/" target="_blank"><img src="images/twitter.png" alt=""></a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- Footer -->
+        <!-- Bottom Footer -->
 
-    <div class="footer">
-        <div class="sub-title_footer">
-            <div class="title_footer">
-                <p>contact</p>
+        <div class="bottom_footer">
+            <div class="text-bottom_footer">
+                <p>© 2019 - <span style="color: #10cab7;">Leon</span>,All Right Reserved</p>
             </div>
-            <div class="subtitle_footer">
-                <p>We are born to create</p>
-            </div>
-        </div>
-        <div class="info_footer">
-            <div class="title-info_footer">
-                <p>Feel free to drop us a line at:</p>
-            </div>
-            <div class="subtitle-info_footer">
-                <p>leonagency@mail.com</p>
-            </div>
-            <div class="path-info_footer"></div>
-        </div>
-        <div class="social_footer">
-            <div class="text-social_footer">
-                <p>Find us on socail networks:</p>
-            </div>
-            <div class="image-socail_footer">
-                <div class="instagram">
-                    <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.png" alt=""></a>
-                </div>
-                <div class="facebook">
-                    <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt=""></a>
-                </div>
-                <div class="twitter">
-                    <a href="https://twitter.com/" target="_blank"><img src="images/twitter.png" alt=""></a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Bottom Footer -->
-
-    <div class="bottom_footer">
-        <div class="text-bottom_footer">
-            <p>© 2019 - <span style="color: #10cab7;">Leon</span>,All Right Reserved</p>
         </div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/OffCanvasMenu.js"></script>
     <script src="js/smoothScroll.js"></script>
+    <script src="js/stickyNavbar.js"></script>
 </body>
 </html>
