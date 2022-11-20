@@ -100,29 +100,6 @@ body {
     width: 20px;
 }
 
-.btn_portfolio {
-    display: flex;
-    justify-content: center;
-    margin-top: 55px;
-}
-
-.btn_portfolio input {
-    border: 1px solid black;
-    background-color: #fafafa;
-    width: 155px;
-    height: 45px;
-    color: black;
-    font-weight: 800;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background .1s linear, color .1s linear;
-}
-
-.btn_portfolio input:hover {
-    background-color: black;
-    color: #fafafa;
-}
-
 /* Hero */
 
 .hero {
@@ -132,6 +109,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(../../../images/background.jpg);
+    background-position: center;
 }
 
 .sub-title_hero {
@@ -214,6 +193,29 @@ body {
     font-size: 15px;
 }
 
+.btn_portfolio {
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+}
+
+.btn_portfolio input {
+    border: 1px solid black;
+    background-color: #fafafa;
+    width: 155px;
+    height: 45px;
+    color: black;
+    font-weight: 800;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background .1s linear, color .1s linear;
+}
+
+.btn_portfolio input:hover {
+    background-color: black;
+    color: #fafafa;
+}
+
 /* Images */
 
 .image1 {
@@ -224,6 +226,9 @@ body {
     background-color: #dedede;
     min-width: 1170px;
     height: 535px;
+    background-image: url(../../../images/banner-img-company.png);
+    background-position: center;
+    background-size: auto 535px;
 }
 
 .image2 {
@@ -243,6 +248,9 @@ body {
     background-color: #dedede;
     width: 570px;
     height: 365px;
+    background-image: url(../../../images/men-work.jpg);
+    background-position: center;
+    background-size: auto 380px;
 }
 
 .image3 {
@@ -256,6 +264,9 @@ body {
     background-color: #dedede;
     width: 570px;
     height: 365px;
+    background-image: url(../../../images/people.jpeg);
+    background-position: center;
+    background-size: auto 440px;
 }
 
 .text_image3 p {

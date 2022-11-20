@@ -35,13 +35,17 @@ body {
 }
 
 .info-leon {
-    background-color: #f6f6f6;
+    /* background-color: #f6f6f6; */
     width: 100%;
     min-height: 460px;
     display: flex;
     align-items: center;
     flex-direction: column;
     row-gap: 60px;
+    background-image: url(../../images/mountain.png);
+    background-repeat: no-repeat;
+    background-position: bottom; 
+    /* opacity: 0.50; */
 }
 
 .title_info-leon p {
@@ -270,6 +274,9 @@ body {
     height: 330px;
     margin-right: 40px;
     box-shadow: -2px 2px 8px -4px rgba(44, 71, 85, 1);
+    background-image: url(../../images/mountion2.jpg);
+    background-position: top -300px right -700px;
+    background-repeat: no-repeat;
 }
 
 .path-img_service {
@@ -327,6 +334,27 @@ body {
     background-color: #f6f6f6;
     width: 500px;
     height: 370px;
+}
+
+.image1_portfolio {
+    background-image: url(../../images/macbook.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 570px 370px;
+}
+
+.image2_portfolio {
+    background-image: url(../../images/book.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 570px 370px;
+}
+
+.image3_portfolio {
+    background-image: url(../../images/macbook2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 570px 370px;
 }
 
 .sub-title_image_portfolio {
@@ -427,6 +455,9 @@ body {
     box-shadow: -2px 2px 8px -4px rgba(44, 71, 85, 1);
     position: absolute;
     margin-left: 15px;
+    background-image: url(../../images/planet1.png);
+    background-position: center;
+    background-size: auto 340px;
 }
 
 .path2-info_about {
